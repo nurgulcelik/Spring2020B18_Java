@@ -1,0 +1,14 @@
+package day15_ForLoop;
+
+public class ForLoop {
+    public static void main(String[] args) {
+     /*for(int i=0; i<5; i++ ){
+         System.out.println("Hello World");
+     }*/
+
+for (int i=1; i<=10; i+=1){//i++, ten times,1,2,3,4,5,6,7,8,8,10; i+=2 it means 5 times,1,3,5,7,9 executed
+            System.out.println(i+":"+ (i*i));// pre or post increment does not matter
+        }
+
+    }
+}
