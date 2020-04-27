@@ -1,5 +1,6 @@
 package Resources;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Library {
@@ -7,6 +8,15 @@ public class Library {
 
 
         }
+        public static int max(ArrayList<Integer> list ){
+        int maximum=Integer.MIN_VALUE;
+        for(int i=0; i<list.size();i++){
+            if(list.get(i)>maximum){
+                maximum= list.get(i);
+            }
+        }
+        return maximum;
+    }
         public static String FrequencyOfChars(String str){
         String NonDup = Library.RemoveDuplicates(str);//ABC
         String result="";
