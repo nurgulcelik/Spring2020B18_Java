@@ -11,7 +11,8 @@ write a program that can combine two String arrays into one arrayList
  */
 public class CombiningTwoArrays {
     public static void main(String[] args) {
-        String[] arr1={"A","B","C"};
+
+       String[] arr1={"A","B","C"};
         String[] arr2={"D","E","F","G"};
         ArrayList<String> list = new ArrayList<>();
 
