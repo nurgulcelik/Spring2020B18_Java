@@ -5,12 +5,15 @@ public class BankAccount {
     long accountNumber;
     double balance;
     public void checkingBalance(){
+
         System.out.println("Available Balance: "+balance);
     }
-    public void withdraw(double amount){
-        System.out.println("Withdrawing $ "+amount);
-        balance-=amount;
-    }
+    public void withdraw(double amount) {
+
+        System.out.println("Withdrawing $ " + amount);
+            balance -= amount;
+        }
+
     public void deposit(double amount){
         System.out.println("Depositing $ " +amount);
         balance+=amount;

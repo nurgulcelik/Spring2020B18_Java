@@ -8,7 +8,7 @@ public class CapitalOne {
     Anna.checkingBalance();
     Anna.deposit(33);
     Anna.checkingBalance();
-    Anna.withdraw(13);
+    Anna.withdraw(10);
     Anna.checkingBalance();
         System.out.println(Anna);
 

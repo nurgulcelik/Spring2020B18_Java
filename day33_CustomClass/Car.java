@@ -12,7 +12,11 @@ public class Car {
         public void getCarInfo(){
         System.out.println(year+" "+Brand+" "+model);}
         public void setCarInfo(String carBrand,String carModel,int carYear,String carColor){
-        Brand =carBrand;model=carModel; year=carYear;color=carColor;}
+        Brand =carBrand;
+        model=carModel;
+        year=carYear;
+        color=carColor;
+    }
         public String toString() {
             String result = year + " " + Brand + " " + model + " " + color;
             return result;
