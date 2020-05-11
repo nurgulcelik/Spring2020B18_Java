@@ -22,26 +22,26 @@ public class Employee {
                 ", job title: "+jobTitle+", salary: $"+salary;
     }
     }
-    class HumanResources {
-        static Employee employee1;
-        static Employee employee2;
-        static Employee employee3;
-        static Employee employee4;
-        static Employee employee5;
+   class HumanResources {
+    static Employee employee1;
+    static Employee employee2;
+    static Employee employee3;
+    static Employee employee4;
+    static Employee employee5;
 
-       static {
-           employee1 = new Employee();
-           employee1.setEmployeeInfo("Ayse", 12345, 34567834, "QA", 120000, 'F');
-           employee2 = new Employee();
-           employee2.setEmployeeInfo("Ahmet", 34567, 98765490, "SDET", 110000, 'M');
-           employee3=new Employee();
-           employee3.setEmployeeInfo("Enes",12345,76845665,"SDET",130000,'M');
-           employee4=new Employee();
-           employee4.setEmployeeInfo("Talha",76758,29087643,"Developer",120000,'M');
-           employee5=new Employee();
-           employee5.setEmployeeInfo("Zeynep",34267,67509101,"PO",150000,'F');
-        }
+    static {
+        employee1 = new Employee();
+        employee1.setEmployeeInfo("Ayse", 12345, 34567834, "QA", 120000, 'F');
+        employee2 = new Employee();
+        employee2.setEmployeeInfo("Ahmet", 34567, 98765490, "SDET", 110000, 'M');
+        employee3=new Employee();
+        employee3.setEmployeeInfo("Enes",12345,76845665,"SDET",130000,'M');
+        employee4=new Employee();
+        employee4.setEmployeeInfo("Talha",76758,29087643,"Developer",120000,'M');
+        employee5=new Employee();
+        employee5.setEmployeeInfo("Zeynep",34267,67509101,"PO",150000,'F');
     }
+}
 
     class BankOfAzerbaijan{
         public static void main(String[] args) {

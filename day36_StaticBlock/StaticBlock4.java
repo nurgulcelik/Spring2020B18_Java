@@ -18,7 +18,7 @@ int insVariable;
      //insVariable=300; compile error
      // StaticBlock4 obj= new StaticBlock4();
       // do not use static block to initialize the instance variables
-     // obj.insVariable=300;
+      //obj.insVariable=300;
 
   }
 
