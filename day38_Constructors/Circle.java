@@ -28,8 +28,8 @@ public class Circle {
     }
     public String toString(){
         return     "Circles radius: "+radius+
-                "Circles diameter: "+diameter+
-                "Circles area: "+area()+
-                "Circles perimeter: "+perimeter();
+                " Circles diameter: "+diameter+
+                " Circles area: "+area()+
+                " Circles perimeter: "+perimeter();
     }
 }
