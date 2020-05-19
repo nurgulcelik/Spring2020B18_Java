@@ -1,4 +1,4 @@
-package day42_Inheritance.Task;
+package day42_Inheritance.Task01;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,7 +14,7 @@ public class Company extends Person {
         ArrayList<Employee>company=new
                 ArrayList(Arrays.asList(employee1,employee2,employee3));
         for(Employee each:company){
-            System.out.println(each.name+" "+each.jobTitle+" "+each.salary);
+            System.out.println(each.name+" "+each.employeeId);
         }
     }
 }

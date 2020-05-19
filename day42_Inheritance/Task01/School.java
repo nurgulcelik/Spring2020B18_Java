@@ -1,4 +1,4 @@
-package day42_Inheritance.Task;
+package day42_Inheritance.Task01;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,7 +16,7 @@ public class School extends Person {
         ArrayList<Student> school=new
                 ArrayList<>(Arrays.asList(student1,student2,student3));
         for(int i=0;i<school.size();i++){
-            System.out.println(school.get(i).name+" "+school.get(i).studentId+" "+school.get(i).clazz);
+            System.out.println(school.get(i).name+" "+school.get(i).studentId);
         }
     }
 }

@@ -1,4 +1,4 @@
-package day42_Inheritance.Task;
+package day42_Inheritance.Task01;
 
 public class Employee extends Person {
     public double salary;
