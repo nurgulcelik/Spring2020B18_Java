@@ -14,8 +14,6 @@ public class Try_catchBlocks {
         } catch (Exception e) {
             System.out.println("Something went wrong");
         }
-
-
         System.out.println("Test completed");
     }
 }
