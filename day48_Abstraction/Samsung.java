@@ -5,6 +5,7 @@ public class Samsung extends Phone {
         brand="Samsung";
     }
     public void Freezing(long phoneNumber){
+
         System.out.println("Samsung is freezing with "+ phoneNumber);
     }
     public Samsung(String model, double price,String size){
