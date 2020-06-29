@@ -10,6 +10,7 @@ public class Q {
         q.add("ey");
         q.add("iy");
         q.add("ze");
+        q.add("ey");
         System.out.println(q);
       String str= q.poll();
         System.out.println(str);

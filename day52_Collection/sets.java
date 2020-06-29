@@ -5,15 +5,15 @@ import java.util.*;
 public class sets {
     public static void main(String[] args) {
        // Set<String>names= new HashSet<>();
-        Set<String>names= new LinkedHashSet<>();
+       Set <String>names= new LinkedHashSet<>();
         names.add("zeynep");
         names.add("zeynep");
         names.add("zeynep");
         names.add("enes");
         names.add("talha");
         System.out.println(names);
-        String[] arr= {"a","b","c","a","b"};
-        LinkedHashSet<String> set1= new LinkedHashSet<>(Arrays.asList(arr));
+        String[] arr= {"c","a","b","a","b"};
+        Set<String> set1= new TreeSet<>(Arrays.asList(arr));
         System.out.println(set1);//[a,b,c]
         //System.out.println(set1.get(1));
         System.out.println("===========================");
